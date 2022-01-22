@@ -248,3 +248,6 @@ def main(model_params, model_name, data_folder, word_embeddings, train_set, val_
             
 
         print("Train f1: ", f1 / (train_as_indices[0].shape[0] / model_params['batch_size']))
+        # save model
+        if (train_epoch % 5 == 0 and save_model):
+            torch.save(model.state_dict(), "{0}{1}-{2}.out".format(save_folder, model_name, str(train_epoch)))
