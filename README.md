@@ -2,6 +2,11 @@
 
 This is an implementation of the paper [KGPool: Dynamic Knowledge Graph Context Selection for Relation
 Extraction](https://aclanthology.org/2021.findings-acl.48.pdf), ACL Findings 2021.
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/kgpool-dynamic-knowledge-graph-context/relation-extraction-on-nyt-corpus)](https://paperswithcode.com/sota/relation-extraction-on-nyt-corpus?p=kgpool-dynamic-knowledge-graph-context)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/kgpool-dynamic-knowledge-graph-context/relationship-extraction-distant-supervised-on)](https://paperswithcode.com/sota/relationship-extraction-distant-supervised-on?p=kgpool-dynamic-knowledge-graph-context)
+
 ```
 @inproceedings{nadgeri-etal-2021-kgpool,
     title = "{KGP}ool: Dynamic Knowledge Graph Context Selection for Relation Extraction",
